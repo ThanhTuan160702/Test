@@ -6,6 +6,7 @@
         width: 900px;
     }
     .footer{
+        padding-top: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -13,7 +14,6 @@
         text-align: center;
         width: 100%;
         gap: 15px;
-        height: 110px;
         border-top: 1px solid gray;
     }
     .hr{
