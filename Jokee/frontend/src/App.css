@@ -1,0 +1,191 @@
+@media screen and (min-width: 1024px) {
+    .header-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 900px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        gap: 15px;
+        height: 110px;
+        border-top: 1px solid gray;
+    }
+    .hr{
+        width: 600px;
+        border-top-width: 2px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .body-1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #29b363;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .body-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 350px;
+    }
+    .body-2-div-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .body-1-text-1{
+        font-family: 'Mulish', sans-serif;
+        font-size: 35px;
+        color: white;
+    }
+    .body-1-text-2{
+        font-size: 13px;
+        color: white;
+    }
+    .body-text{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: #718096;
+        width: 820px;
+        font-size: 15px;
+    }
+    .button-1{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        width: 230px;
+        height: 45px;
+        background: #2c7edb;
+    }
+    .button-2{
+        background: #29b363;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        width: 230px;
+        height: 45px;
+    }
+    .footer-span-1{
+        font-size: 12px;
+        line-height: 16px;
+        color: #6B7280;
+        width: 900px;
+     }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 900px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .hr{
+        width: 100%;
+        border-top-width: 2px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .body-1-text-1{
+        font-family: 'Mulish', sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    .body-1-text-2{
+        font-size: 13px;
+        color: white;
+    }
+    .body-text{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: #718096;
+        text-align: left;
+    }
+    .body-1{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background: #29b363;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .body-2{
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        height: 500px;
+    }
+    .button-1{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        width: 150px;
+        height: 45px;
+        background: #2c7edb;
+    }
+    .button-2{
+        background: #29b363;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        width: 150px;
+        height: 45px;
+    }
+    .body-2-div-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        height: 200px;
+        margin-top: 48px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        border-top: 1px solid gray;
+    }
+    .footer-span-1{
+       padding-left: 5px;
+       padding-right: 10px;
+       font-size: 12px;
+       line-height: 16px;
+       color: #6B7280;
+       width: auto;
+    }
+}
+
+.font{
+    font-family: 'Mulish', sans-serif;
+}
